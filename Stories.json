@@ -1,0 +1,53 @@
+{
+"stories":[
+    {
+        "number":1,
+        "title":"Basic Player Movement",
+        "summary":"As a player I want to be able move a player object around the screen so that I can interact with the game",
+        "acceptanceCriteria":[
+            "Player can move forward",
+            "Player can move backward",
+            "Player can move left",
+            "Player can move right"
+        ]
+    },
+    {
+        "number":2,  
+        "title":"Constrain Player to Screen",
+        "summary": "As a player, I want my player object to be constrained to the limits of the play area, so that I can always see my ship",
+        "acceptanceCriteria":[
+            "Player ship is constrained to screen at the top and bottom",
+            "If the player exits the left or right side of the screen, it appears on the opposite side"
+        ]
+    },
+    {
+        "number":3,
+        "title":"Obstacles Appear",
+        "summary": "As a player, I want enemies to appear at the top of the screen, so that I have opponents to dodge and shoot",
+        "acceptanceCriteria":[
+            "Obstacles randomly appear at the top of the screen and float downward",
+            "Colliding with an Obsticle destroys it",
+            "Player Resets to starting location upon collision with obstacle"
+        ]
+    },
+    {
+        "number": 4,
+        "title": "Score Points",
+        "summary": "As a player, I want to score points when I knock blocks off the screen, so that I have an objective to strive for",
+        "acceptanceCriteria": [
+            "Score a point when obstacles are knocked off the sides or top of the screen",
+            "No point is scored if the obstacle exits the bottom of the screen",
+            "Score is tracked on screen"
+        ]
+    },
+    {
+        "number": 5,
+        "title": "Speed Powerup",
+        "summary": "As a player, I want a powerup to increase my speed, so that I'm rewarded for playing longer",
+        "acceptanceCriteria": [
+            "Powerups randomly appear on the screen to pickup",
+            "Powerups increase the players speed by a configurable amount"
+        ]
+    }
+]
+}
