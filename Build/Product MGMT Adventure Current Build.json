@@ -1,0 +1,17 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Product Management Adventure",
+"productVersion": "1.0",
+"dataUrl": "Product MGMT Adventure Current Build.data.unityweb",
+"asmCodeUrl": "Product MGMT Adventure Current Build.asm.code.unityweb",
+"asmMemoryUrl": "Product MGMT Adventure Current Build.asm.memory.unityweb",
+"asmFrameworkUrl": "Product MGMT Adventure Current Build.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.20f1"
+}
