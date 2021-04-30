@@ -48,6 +48,15 @@
             "Powerups randomly appear on the screen to pickup",
             "Powerups increase the players speed by a configurable amount"
         ]
+    },
+    {
+        "number": 6,
+        "title": "Themed Background",
+        "summary": "As a player who cares about story continuity, I want the ship to look like it's flying around earths sky so that it appears to be protecting the earth's surface from falling hazards",
+        "acceptanceCriteria": [
+            "The ship appears to be moving around earths sky or atmosphere",
+            "Objects appear to be hurdling towards earth"
+        ]
     }
 ]
 }
